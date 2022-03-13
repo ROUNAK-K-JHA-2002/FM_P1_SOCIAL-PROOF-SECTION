@@ -1,0 +1,78 @@
+.container-fluid {
+    height: max-content;
+}
+
+.writings {
+    width: 40%;
+}
+
+.writings p:first-child {
+    font-size: 3em;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 900;
+    line-height: 1.5cm;
+}
+
+.writings p:nth-child(2) {
+    width: 75%;
+    color: rgb(143, 140, 140);
+}
+
+.rating_stars div {
+    border-radius: 10px;
+    width: max-content;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(255, 215, 222, 0.692);
+}
+
+.testimonials {
+    color: white;
+    float: left;
+    width: 30%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5cm;
+    height: max-content;
+}
+
+.testimonials span {
+    position: absolute;
+    margin-left: 1.5em;
+    font-size: 1.3em;
+    color: white;
+}
+
+.testimonials span p {
+    font-size: 0.7em;
+    color: blueviolet;
+}
+
+img {
+    border-radius: 2cm;
+}
+
+.rating_stars div i {
+    color: orange;
+}
+
+@media screen and (max-width:750px) {
+    .writings {
+        width: 95%;
+    }
+    .rating_stars div {
+        width: 100%;
+    }
+    .testimonials {
+        width: 100%;
+    }
+    .writings p:first-child {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1cm;
+    }
+    .writings p:nth-child(2) {
+        width: 95%;
+        text-align: center;
+    }
+}
