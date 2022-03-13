@@ -27,6 +27,10 @@
     background-color: rgba(255, 215, 222, 0.692);
 }
 
+.rating_stars div span{
+    color: hsl(300, 43%, 22%);
+}
+
 .testimonials {
     color: white;
     float: left;
